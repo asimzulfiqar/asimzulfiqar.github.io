@@ -1,34 +1,33 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Asim Zulfiqar",
+    "label": "IoT developer and content creator",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "asimzulfiqar67@gmail.com",
+    "phone": "+491764954774",
+    "url": "https://asimzulfiqar67.github.io",
+    "summary": "IoT | Photonics | Cloud Computing | STEM Trainer | Tech blogger and Content Creator",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "postalCode": "85716",
+      "city": "Munich",
+      "countryCode": "DE",
+      "region": "Bavaria"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "asimzulfiqar",
+        "url": "https://www.linkedin.com/in/asimzulfiqar/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Scientific Programmer for IoT Research Projects",
+      "position": "Scientific Programmer for IoT Research Projects",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
       "highlights": ["Relativity"]
     }

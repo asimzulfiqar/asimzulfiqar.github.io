@@ -9,8 +9,6 @@ profile:
   image: profile-pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-#     <p>555 your office number</p>
-# <p>123 your address street</p>
     <p>Munich, Germany 85716</p>
 
 news: true # includes a list of news items

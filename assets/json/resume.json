@@ -4,7 +4,7 @@
     "label": "IoT developer and content creator",
     "image": "",
     "email": "asimzulfiqar67@gmail.com",
-    // "phone": "+491764954774",
+     "phone": "+491764954774",
     "url": "https://asimzulfiqar67.github.io",
     "summary": "IoT | Photonics | Cloud Computing | STEM Trainer | Tech blogger and Content Creator",
     "location": {
@@ -41,18 +41,18 @@
       "highlights": ["API development","Arduino","Internet of things (IoT)","Raspberry pi","Content creation","Blogging","MQTT","Cloud computing","IoT Networks"]
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
   "education": [
     {
       "institution": ["Scuola Superiore Sant'Anna","Aston University","Osaka University"],
@@ -98,7 +98,7 @@
       "startDate": "01.01.2015",
       "endDate": "31.12.2019",
       "score": "3.56 GPA out of 4 , Bronze medal (3rd postion)",
-      "courses" = [
+      "courses" : [
         "Comp. Fundamental and Programming",
         "Calculus and Analytical Geometry",
         "Object-oriented Programming",
@@ -239,18 +239,18 @@
       ]
     }
   ],
-  // "references": [
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-laptop",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   },
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-thumbtack",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   }
-  // ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
   "projects": [
     {
       "name": "Quantum Computing",

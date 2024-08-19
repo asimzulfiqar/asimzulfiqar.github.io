@@ -4,7 +4,7 @@
     "label": "IoT developer and content creator",
     "image": "",
     "email": "asimzulfiqar67@gmail.com",
-    "phone": "+491764954774",
+    // "phone": "+491764954774",
     "url": "https://asimzulfiqar67.github.io",
     "summary": "IoT | Photonics | Cloud Computing | STEM Trainer | Tech blogger and Content Creator",
     "location": {
@@ -23,38 +23,103 @@
   },
   "work": [
     {
-      "name": "Scientific Programmer for IoT Research Projects",
+      "name": "Leibniz-Rechenzentrum",
       "position": "Scientific Programmer for IoT Research Projects",
-      "url": "https://example.com",
-      "startDate": "2022-09-01",
+      "url": "https://lrz.de",
+      "startDate": "01.09.2022",
       "endDate": "Present",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "summary": "The work involved real-time IoT data collection using LoRaWAN, TTN, and MQTT, alongside the definition and implementation of REST APIs to facilitate the exchange of IoT sensor data. A web-based user interface was designed and implemented to connect InfluxDB with Grafana, enhancing data visualization. Additionally, automatic monitoring and alerting for data delivery were extended using Prometheus. The project also included virtual server management in the LRZ Compute Cloud, which was carried out using Ansible.",
+      "highlights": ["API development","Linux","Internet of things (IoT)","Python","InfluxDB","Grafana","Prometheus","MQTT","Cloud computing","Ansible","IoT Networks"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "High Voltages",
+      "position": "IoT content creator",
+      "url": "https://lrz.de",
+      "startDate": "01.12.2017",
+      "endDate": "Present",
+      "summary": "I created and managed high-quality content for How-to blogs and video tutorials on IoT protocols, embedded systems, and Python programming, covering over 50 topics. My work garnered over 1 million views across a blog and YouTube channel. I utilized technical writing skills to simplify complex concepts for a non-technical audience, leveraged SEO techniques to enhance content visibility, and applied content marketing strategies to boost engagement. Additionally, I conducted extensive research to ensure accuracy and stay updated on industry trends.",
+      "highlights": ["API development","Arduino","Internet of things (IoT)","Raspberry pi","Content creation","Blogging","MQTT","Cloud computing","IoT Networks"]
     }
   ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "location": "Zurich, Switzerland",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": ["Scuola Superiore Sant'Anna","Aston University","Osaka University"],
+      "location": ["Pisa, Italy","Birmingham, England","Osaka, Japan"],
+      "url": "http://pixnet.santannapisa.it/",
+      "area": "Photonic Integrated Circuits, Sensors and NETworks - PIXNET",
+      "studyType": "Erasmus Mundus Joint Master Degree",
+      "startDate": "01.09.2020",
+      "endDate": "31.08.2022",
+      "score": "Excellent",
+      "courses" : [
+        "Communication Networks and Network Security",
+        "Communication Theory and Digital Transmission",
+        "Design of Access, Metro and Core Networks",
+        "Electromagnetic Fields and Propagation",
+        "Fundamentals of Applied Optics",
+        "Fundamentals of Optical Communications",
+        "Introduction to Programming Tools",
+        "Laboratory of Network Software",
+        "Laboratory of Traffic Engineering",
+        "Microwave Photonics",
+        "Network Simulation",
+        "Optical Interconnect Networks",
+        "Optoelectronic Devices for Metrology",
+        "Photonic Integrated Circuits",
+        "Photonic Integrated Technologies",
+        "Photonic Integration for Sensing",
+        "Photonic Technologies",
+        "Series of advanced lectures on distributed fibre sensing",
+        "Simulation Techniques for Digital Communication Systems",
+        "Stochastic Processes",
+        "Wireless Communication Networks"
+    ],
+    "Theseis" : "Analysis of Carrier Frequency offset (CFO) estimation method in eigenvalue domain"
+  
+    
+    },{
+      "institution": "Sir Syed University of Engineering and Technology (SSUET)",
+      "location": "Karachi, Pakistan",
+      "url": "http://pixnet.santannapisa.it/",
+      "area": "Electronics Engineering",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "01.01.2015",
+      "endDate": "31.12.2019",
+      "score": "3.56 GPA out of 4 , Bronze medal (3rd postion)",
+      "courses" = [
+        "Comp. Fundamental and Programming",
+        "Calculus and Analytical Geometry",
+        "Object-oriented Programming",
+        "Differential Equations",
+        "Linear Algebra and Vector Analysis",
+        "Basic Electronics",
+        "Instrumentation and Measurements",
+        "Complex Variable and Transform",
+        "Data Communication and Networks",
+        "Signals and Systems",
+        "Microprocessor and Microcontroller",
+        "Digital Signal Processing",
+        "Integrated Electronics",
+        "Embedded System",
+        "Fundamental of Wireless Communication",
+        "Embedded Systems"
+    ],
+    "Final Year project" : "Physical Robotic Assistant",
+    "Activitis and Achievements" : ["won circuit designing competition at NUST Prowars, SPEC 16 (PAF KIET) and runner up at Procom (FAST university).","Won 1st and 2nd prizes in Dramatics competition held at Education Expo, Karachi.","3rd Position in the batch of 250 students and Tuition Fee waiver scholarship for an excellent performance."]
+  
+    
     }
   ],
   "awards": [

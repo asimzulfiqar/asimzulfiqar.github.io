@@ -26,7 +26,7 @@
       "name": "Leibniz-Rechenzentrum",
       "position": "Scientific Programmer for IoT Research Projects",
       "url": "https://lrz.de",
-      "startDate": "01.09.2022",
+      "startDate": "09.2022",
       "endDate": "Present",
       "summary": "The work involved real-time IoT data collection using LoRaWAN, TTN, and MQTT, alongside the definition and implementation of REST APIs to facilitate the exchange of IoT sensor data. A web-based user interface was designed and implemented to connect InfluxDB with Grafana, enhancing data visualization. Additionally, automatic monitoring and alerting for data delivery were extended using Prometheus. The project also included virtual server management in the LRZ Compute Cloud, which was carried out using Ansible.",
       "highlights": ["API development","Linux","Internet of things (IoT)","Python","InfluxDB","Grafana","Prometheus","MQTT","Cloud computing","Ansible","IoT Networks"]
@@ -35,7 +35,7 @@
       "name": "High Voltages",
       "position": "IoT content creator",
       "url": "https://highvoltages.co",
-      "startDate": "01.12.2017",
+      "startDate": "12.2017",
       "endDate": "Present",
       "summary": "I created and managed high-quality content for How-to blogs and video tutorials on IoT protocols, embedded systems, and Python programming, covering over 50 topics. My work garnered over 1 million views across a blog and YouTube channel. I utilized technical writing skills to simplify complex concepts for a non-technical audience, leveraged SEO techniques to enhance content visibility, and applied content marketing strategies to boost engagement. Additionally, I conducted extensive research to ensure accuracy and stay updated on industry trends.",
       "highlights": ["API development","Arduino","Internet of things (IoT)","Raspberry pi","Content creation","Blogging","MQTT","Cloud computing","IoT Networks"]
@@ -117,8 +117,8 @@
       "url": "http://pixnet.santannapisa.it/",
       "area": "Electronics Engineering",
       "studyType": "Bachelor of Science (BS)",
-      "startDate": "01.01.2015",
-      "endDate": "31.12.2019",
+      "startDate": "01.2015",
+      "endDate": "12.2019",
       "score": "3.56 GPA out of 4 , Bronze medal (3rd postion)",
       "courses" : [
         "Comp. Fundamental and Programming",

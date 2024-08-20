@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: IoT developer and Content creator
 
 profile:
   align: right
@@ -11,12 +11,12 @@ profile:
   more_info: >
     <p>Munich, Germany 85716</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, I am an experienced professional in the field of electronic engineering with a diverse educational background. I hold a Bachelor's degree in Electronic Engineering and a Master's degree from the Erasmus Mundus joint degree program in Photonics integrated circuits, Sensors and networks from universities in Italy, UK, and Japan. My education has provided me with a strong foundation in the latest technologies and techniques in the field of electronic engineering.
+Hello, I am an experienced professional in the field of electronic engineering with a diverse educational background. I hold a Bachelor's degree in Electronic Engineering and a Master's degree from the [Erasmus Mundus joint degree program in Photonics integrated circuits, Sensors and networks](http://pixnet.santannapisa.it/)  from universities in Italy, UK, and Japan. My education has provided me with a strong foundation in the latest technologies and techniques in the field of electronic engineering.
 
 As a freelancer, I have worked on several embedded system and IoT projects, gaining valuable experience in the design, development, and implementation of IoT solutions. Currently, I am working as a Scientific programmer for IoT research projects, where I am involved in an agricultural-based project that involves sensing, IoT, and managing virtual machines to collect and visualize data. This project is extremely exciting, and I am proud to be part of a team that is making a real impact in the agricultural industry.
 

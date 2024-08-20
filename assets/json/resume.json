@@ -106,26 +106,8 @@
       "summary": "I have learned about avionics and the communication technologies used by airlines and aircraft."
     }
 
-
-
-
-
-
-
-
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+
   "education": [
     {
       "institution": "Osaka University",
@@ -215,55 +197,77 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Erasmus Mundus Scholarship",
+      "date": "2020-04",
+      "awarder": "Erasmus",
+      "url": "http://pixnet.santannapisa.it/",
+      "summary": "Selected in PIXNET photonics integrated circuits, Sensors and Networks as an Erasmus Scholar."    
+    },
+          {
+      "title": "Bronze Medalist (3rd position)",
+      "date": "2019-01",
+      "awarder": "Sir Syed University of Engineering and Technology (SSUET)",
+      "url": "http://ssuet.edu.pk",
+      "summary": "Was Awarded bronze medal for securing 3rd position in the batch of 200 students."    
+    },
+              {
+      "title": "Won Circuit designing Competition",
+      "date": "2017-07",
+      "awarder": "Sir Syed University of Engineering and Technology (SSUET)",
+      "url": "http://ssuet.edu.pk",
+      "summary": "won circuit designing competition at NUST Prowars, SPEC 16 (PAF KIET) and runner up at Procom (FAST university)."    
+    },
+                  {
+      "title": "SSUET Merit based Scholarship",
+      "date": "2015-01",
+      "awarder": "Sir Syed University of Engineering and Technology (SSUET)",
+      "url": "http://ssuet.edu.pk",
+      "summary": "Awarded merit based scholarship for staying in top 3 rank through out the 4 years of undergrad."    
     }
+
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "HiveMQ MQTT v3.1.1 Expert Certification Exam",
+      "date": "2024-08",
+      "issuer": "HiveMQ",
+      "url": "http://verify.skilljar.com/c/7r44es9d9qqa",
+      "icon": "fa-solid fa-network-wired"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Career Essentials in Sustainable Tech by Microsoft and LinkedIn",
+      "date": "2023-12",
+      "issuer": "Microsoft",
+      "url": "https://www.linkedin.com/learning/certificates/5dbd83e0f132f2950c4664406d2865c3ee85b1a5624588ca5045cdc13090413b",
+      "icon": "fa-solid fa-smog"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Python Essential 1 & 2",
+      "date": "2023-09",
+      "issuer": "Cisco",
+      "url": "https://www.credly.com/badges/51d51734-9226-4293-9241-c1e589b3c6e0",
+      "icon": "fa-solid fa-laptop"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Agile project management",
+      "date": "2023-04",
+      "issuer": "Google",
+      "url": "https://www.coursera.org/account/accomplishments/verify/2RLBFC9MBR9V",
+      "icon": "fa-solid fa-people-roof"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Privacy and Ethics in the Internet of Things",
+      "date": "2022-10",
+      "issuer": "CodeRed",
+      "url": "https://codered.eccouncil.org/certificate/e8efdb9f-363e-42d2-9d96-295bbaaf4d3f?logged=true",
+      "icon": "fa-solid fa-shield-halved"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "A developer's guide to the Internet of Things (IoT)",
+      "date": "2018-07",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/DZ4QJ8797728",
+      "icon": "fa-solid fa-globe"
     }
   ],
   "publications": [
@@ -285,18 +289,32 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Online content creation",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-pen",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Blogging",
+        "Technical writing",
+        "Youtube",
+        "Research",
+        "SEO",
+        "Digital Marketing"
+      ]
+    },
+        {
+      "name": "Internet of things",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-globe",
+      "keywords": [
+        "IoT networks",
+        "IoT protocols",
+        "MQTT",
+        "HTTP",
+        "Sensing",
+        "Smart devices"
       ]
     }
+
   ],
   "languages": [
     {
@@ -321,21 +339,9 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "IoT wearable social band – COSOT BAND",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",

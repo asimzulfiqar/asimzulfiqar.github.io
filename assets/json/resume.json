@@ -26,7 +26,7 @@
       "location": "Munich, Germany",
       "position": "Scientific Programmer for IoT Research Projects",
       "url": "https://lrz.de",
-      "startDate": "09.2022",
+      "startDate": "2022-09",
       "endDate": "Present",
       "summary": "The work involved real-time IoT data collection using LoRaWAN, TTN, and MQTT, alongside the definition and implementation of REST APIs to facilitate the exchange of IoT sensor data. A web-based user interface was designed and implemented to connect InfluxDB with Grafana, enhancing data visualization. Additionally, automatic monitoring and alerting for data delivery were extended using Prometheus. The project also included virtual server management in the LRZ Compute Cloud, which was carried out using Ansible.",
       "highlights": ["API development","Linux","Internet of things (IoT)","Python","InfluxDB","Grafana","Prometheus","MQTT","Cloud computing","Ansible","IoT Networks"]
@@ -36,7 +36,7 @@
       "location": "Remote",
       "position": "IoT content creator",
       "url": "https://highvoltages.co",
-      "startDate": "12.2017",
+      "startDate": "2017-12",
       "endDate": "Present",
       "summary": "I created and managed high-quality content for How-to blogs and video tutorials on IoT protocols, embedded systems, and Python programming, covering over 50 topics. My work garnered over 1 million views across a blog and YouTube channel. I utilized technical writing skills to simplify complex concepts for a non-technical audience, leveraged SEO techniques to enhance content visibility, and applied content marketing strategies to boost engagement. Additionally, I conducted extensive research to ensure accuracy and stay updated on industry trends.",
       "highlights": ["API development","Arduino","Internet of things (IoT)","Raspberry pi","Content creation","Blogging","MQTT","Cloud computing","IoT Networks"]
@@ -47,8 +47,8 @@
       "location": "Remote",
       "position": "Embedded and IoT developer",
       "url": "https://www.fiverr.com/emmiasim67",
-      "startDate": "12.2017",
-      "endDate": "09.2022",
+      "startDate": "2017-12",
+      "endDate": "2022-09",
       "summary": "I have successfully completed over 300 projects with positive feedback on Fiverr and Upwork, providing a wide range of services including embedded systems (Arduino, Raspberry Pi, ESP8266, ESP32, Nrf52), IoT development and cloud integration (MQTT, HTTP, AWS, IoT Azure, TTN), online STEM training, mobile app development, computer programming (Python, Java, C, C++), and technical content writing. My work spans various industries, such as healthcare, gaming, automation, and agriculture, where I have leveraged my expertise in embedded systems and IoT to deliver solutions that consistently exceed client expectations.",
       "highlights": [  "Arduino", "Raspberry Pi", "ESP8266", "ESP32", "Nrf52",  "MQTT", "HTTP", "AWS", "IoT Azure", "TTN", "Online STEM Training", "Mobile Application Development", "Python", "Java", "C", "C++","Technical Content Writing"]
     }
@@ -57,8 +57,8 @@
       "name": "First Code Acadmey (Remote)",
       "location": "Hong Kong (Remote)",
       "position": "Online STEM & Coding Instructor",
-      "startDate": "10.2021",
-      "endDate": "06.2022",
+      "startDate": "2021-10",
+      "endDate": "2022-06",
       "summary": "I taught young children programming skills, including block programming, Scratch, Python, and application development using MIT App Inventor and Android Studio. I also developed and implemented lesson plans, assessed student progress, and collaborated with other instructors to design and deliver STEM programs.",
       "highlights": ["Block Programming", "Scratch Programming", "Python Programming", "MIT App Inventor", "Android Studio", "Application Development"]
     },
@@ -68,8 +68,8 @@
       "location": "Pisa, Italy",
       "position": "Online STEM & Coding Instructor",
       "url": "https://www.cnit.it/en/",
-      "startDate": "08.2021",
-      "endDate": "12.2021",
+      "startDate": "2021-08",
+      "endDate": "2021-12",
       "summary": "I developed software for a Container Tracking Device (CTD) using ESP32, Quectel BG96, and various sensors, enabling the Sensor Unit to send UDP packets with JSON payloads to a cloud platform (ICON). Additionally, I created software for a GW NB-IoT/BLE Mesh to act as a provisioner for a BLE mesh network, sending sensor data to the ICON platform. I collaborated on a CTD data model with the client (CNIT), developed software on the HUZZAH32 ESP32 FEATHER platform with a Quectel BG95 shield, and documented everything in a GitLab repository.",      
       "highlights": ["ESP32", "Quectel BG96", "Sensors", "UDP", "JSON", "ICON Platform", "GW NB-IoT", "BLE Mesh", "HUZZAH32 ESP32 FEATHER", "Quectel BG95", "GitLab"]
     },
@@ -79,8 +79,8 @@
       "location": "Karachi, Pakistan",
       "position": "STEM trainer and IoT developer",
       "url": "https://techtree.io",
-      "startDate": "02.2019",
-      "endDate": "12.2019",
+      "startDate": "2019-02",
+      "endDate": "2019-12",
       "summary": "As a STEM Trainer, I instructed school students in block programming, Scratch programming, circuit design basics, and introduced them to trending technologies like AI, computer vision, game development, and augmented reality, using a practical approach to teach STEM concepts. As an IoT Developer, I designed and developed IoT-based products, including a Smart Air Conditioner controlling device that allows users to control their AC devices remotely via the Internet.",
       "highlights": ["Block Programming", "Scratch Programming", "Circuit Design", "AI", "Computer Vision", "Game Development", "Augmented Reality", "IoT", "Smart Devices", "Remote Control Technology", "Internet of Things"]    
     },
@@ -90,8 +90,8 @@
       "location": "Karachi, Pakistan",
       "position": "Embedded System Engineer",
       "url": "https://techtree.io",
-      "startDate": "05.2018",
-      "endDate": "10.2018",
+      "startDate": "2018-05",
+      "endDate": "2018-10",
       "summary": "I have experience working with development boards and microcontrollers like Arduino and Raspberry Pi, and I was responsible for optimizing the power consumption of DC fans.",
       "highlights": ["Arduino", "Raspberry Pi", "Microcontrollers", "Power Optimization", "DC Fans"]
     },
@@ -101,8 +101,8 @@
       "location": "Karachi, Pakistan",
       "position": "Communications System Engineer (Internship)",
       "url": "https://techtree.io",
-      "startDate": "08.2018",
-      "endDate": "09.2018",
+      "startDate": "2018-08",
+      "endDate": "2018-09",
       "summary": "I have learned about avionics and the communication technologies used by airlines and aircraft."
     }
 

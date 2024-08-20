@@ -229,42 +229,42 @@
   "certificates": [
     {
       "name": "HiveMQ MQTT v3.1.1 Expert Certification Exam",
-      "date": "2024-08",
+      "date": "2024",
       "issuer": "HiveMQ",
       "url": "http://verify.skilljar.com/c/7r44es9d9qqa",
       "icon": "fa-solid fa-network-wired"
     },
     {
       "name": "Career Essentials in Sustainable Tech by Microsoft and LinkedIn",
-      "date": "2023-12",
+      "date": "2023",
       "issuer": "Microsoft",
       "url": "https://www.linkedin.com/learning/certificates/5dbd83e0f132f2950c4664406d2865c3ee85b1a5624588ca5045cdc13090413b",
       "icon": "fa-solid fa-smog"
     },
     {
       "name": "Python Essential 1 & 2",
-      "date": "2023-09",
+      "date": "2023",
       "issuer": "Cisco",
       "url": "https://www.credly.com/badges/51d51734-9226-4293-9241-c1e589b3c6e0",
       "icon": "fa-solid fa-laptop"
     },
     {
       "name": "Agile project management",
-      "date": "2023-04",
+      "date": "2023",
       "issuer": "Google",
       "url": "https://www.coursera.org/account/accomplishments/verify/2RLBFC9MBR9V",
       "icon": "fa-solid fa-people-roof"
     },
     {
       "name": "Privacy and Ethics in the Internet of Things",
-      "date": "2022-10",
+      "date": "2022",
       "issuer": "CodeRed",
       "url": "https://codered.eccouncil.org/certificate/e8efdb9f-363e-42d2-9d96-295bbaaf4d3f?logged=true",
       "icon": "fa-solid fa-shield-halved"
     },
     {
       "name": "A developer's guide to the Internet of Things (IoT)",
-      "date": "2018-07",
+      "date": "2018",
       "issuer": "Coursera",
       "url": "https://www.coursera.org/account/accomplishments/verify/DZ4QJ8797728",
       "icon": "fa-solid fa-globe"

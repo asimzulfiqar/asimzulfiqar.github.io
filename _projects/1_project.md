@@ -1,18 +1,16 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: IoT wearable social band – COSOT BAND
+description: COSOT,patended and the world's first service of its kind uses NFC (near field communication technology) to send various messages and SOS to third parties with precise location information by simply holding COSOT product with the smartphone. COSOT is an NFC gadget and fashion wears with various designs.
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+COSOT patended and the world's first service of its kind uses NFC (near field communication technology) to send various messages and SOS to third parties with precise location information by simply holding COSOT product with the smartphone. COSOT is an NFC gadget and fashion wears with various designs.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
 
     ---
     layout: page

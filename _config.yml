@@ -195,11 +195,6 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  notes:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/

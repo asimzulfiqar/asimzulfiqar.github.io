@@ -7,7 +7,7 @@ subtitle: IoT developer and Content creator
 profile:
   align: right
   image: profile-pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # keep the profile image square
   more_info: >
     <p>Munich, Germany 85716</p>
 

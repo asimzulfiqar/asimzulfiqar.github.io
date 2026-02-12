@@ -43,5 +43,5 @@ tags: [Poem, Philosophical, Urdu, reflection]
 
 ---
 
-*— Asim Zulfiqar*  
+**— Asim Zulfiqar**  
 *(Originally written in Urdu)*

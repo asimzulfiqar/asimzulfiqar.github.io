@@ -10,8 +10,6 @@ related_publications: false
 
 COSOT patended and the world's first service of its kind uses NFC (near field communication technology) to send various messages and SOS to third parties with precise location information by simply holding COSOT product with the smartphone. COSOT is an NFC gadget and fashion wears with various designs.
 
-
-
     ---
     layout: page
     title: project

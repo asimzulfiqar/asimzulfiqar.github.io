@@ -159,13 +159,7 @@
       "startDate": "2018-05",
       "endDate": "2018-10",
       "summary": "I have experience working with development boards and microcontrollers like Arduino and Raspberry Pi, and I was responsible for optimizing the power consumption of DC fans.",
-      "highlights": [
-        "Arduino",
-        "Raspberry Pi",
-        "Microcontrollers",
-        "Power Optimization",
-        "DC Fans"
-      ]
+      "highlights": ["Arduino", "Raspberry Pi", "Microcontrollers", "Power Optimization", "DC Fans"]
     },
     {
       "name": "Pakistan International Airlines",
@@ -187,9 +181,7 @@
       "startDate": "2022-03",
       "endDate": "2022-08",
       "score": "Excellent",
-      "courses": [
-        "Thesis : Analysis of CFO in Eigenvalue domain."
-      ]
+      "courses": ["Thesis : Analysis of CFO in Eigenvalue domain."]
     },
     {
       "institution": "Aston University",
@@ -365,65 +357,32 @@
       "name": "Online content creation",
       "level": "Intermediate",
       "icon": "fa-solid fa-pen",
-      "keywords": [
-        "Blogging",
-        "Technical writing",
-        "Youtube",
-        "Research",
-        "SEO",
-        "Digital Marketing"
-      ]
+      "keywords": ["Blogging", "Technical writing", "Youtube", "Research", "SEO", "Digital Marketing"]
     },
     {
       "name": "Internet of things",
       "level": "Intermediate",
       "icon": "fa-solid fa-globe",
-      "keywords": [
-        "IoT networks",
-        "IoT protocols",
-        "MQTT",
-        "HTTP",
-        "Sensing",
-        "Smart devices",
-        "WiFi",
-        "BLE"
-      ]
+      "keywords": ["IoT networks", "IoT protocols", "MQTT", "HTTP", "Sensing", "Smart devices", "WiFi", "BLE"]
     },
     {
       "name": "Embedded development boards",
       "level": "Intermediate",
       "icon": "fa-solid fa-lightbulb",
-      "keywords": [
-        "Arduino",
-        "Raspberry pi",
-        "ESP32",
-        "NRF boards"
-      ]
+      "keywords": ["Arduino", "Raspberry pi", "ESP32", "NRF boards"]
     },
     {
       "name": "Databases",
       "level": "Intermediate",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "InfluxDB",
-        "Prometheus",
-        "MariaDB",
-        "mongoDB"
-      ]
+      "keywords": ["InfluxDB", "Prometheus", "MariaDB", "mongoDB"]
     },
     {
       "name": "Programming Languages",
       "level": "Intermediate",
       "icon": "fa-solid fa-laptop",
-      "keywords": [
-        "C",
-        "C++",
-        "Python",
-        "Javascript",
-        "MATLAB"
-      ]
+      "keywords": ["C", "C++", "Python", "Javascript", "MATLAB"]
     }
-
   ],
   "languages": [
     {
@@ -441,22 +400,14 @@
     {
       "name": "Internet of things",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "IoT",
-        "Smart devices",
-        "Home automation"
-      ]
+      "keywords": ["IoT", "Smart devices", "Home automation"]
     }
   ],
   "projects": [
     {
       "name": "IoT wearable social band – COSOT BAND",
       "summary": "Using NFC (Near Field Communication technology) to connect people and add value to human mobility, and to provide services where one's casual movement can be useful to others and increase the safety and convenience of daily life. Specifically, starting with COSOT (Model 1), which will be unveiled this time, we will sequentially increase the functions of COSOT to connect people to people, people to cities, and people to domestic commercial facilities. By doing so, we plan to create the safest, most enjoyable, and attractive Japan in the world, where people can feel the connection and “warmth” of others.",
-      "highlights": [
-        "IoT",
-        "NFC",
-        "BLE"
-      ],
+      "highlights": ["IoT", "NFC", "BLE"],
       "startDate": "2020",
       "endDate": "Present",
       "url": "https://www.cosot.jp/"

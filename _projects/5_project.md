@@ -1,80 +1,131 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
+title: ESP32 IoT Development Guide & Tutorials
+description: Comprehensive technical content and tutorials on ESP32-based IoT development. Includes video courses, blog posts, and open-source project examples for the maker community.
+img: assets/img/9.jpg
+importance: 5
 category: fun
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Content Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As part of my commitment to knowledge sharing, I create comprehensive technical content focused on ESP32 and IoT development. This includes written tutorials, video courses, and open-source example projects to help developers at all levels build practical IoT solutions.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Content Platforms
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**YouTube Channel** ([@highvoltages](https://www.youtube.com/@highvoltages))
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **50+ video tutorials** on ESP32, sensors, and IoT protocols
+- Project walkthroughs from schematic to deployment
+- Troubleshooting guides for common issues
+- Live coding sessions and Q&A
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Blog** ([highvoltages.co](https://www.highvoltages.co))
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- In-depth technical articles on IoT architecture
+- Best practices for embedded development
+- Protocol deep-dives (MQTT, HTTP, WebSockets)
+- Performance optimization guides
+- Security considerations for IoT devices
 
-{% raw %}
+**GitHub Repositories**
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Open-source project examples with complete code
+- Reusable libraries and helper functions
+- Hardware schematics and PCB designs
+- Documentation and setup guides
 
-{% endraw %}
+## Popular Tutorial Series
+
+### 1. ESP32 Fundamentals
+
+- GPIO, ADC, PWM, and peripheral configuration
+- WiFi and Bluetooth connectivity
+- Deep sleep and power optimization
+- OTA updates and remote management
+
+### 2. Sensor Integration
+
+- Temperature, humidity, pressure sensors
+- Motion detection and accelerometers
+- Air quality and environmental monitoring
+- Industrial sensors (Modbus, 4-20mA)
+
+### 3. Communication Protocols
+
+- **MQTT**: Publish-subscribe patterns, QoS levels, security
+- **HTTP/REST**: API design, authentication, error handling
+- **WebSockets**: Real-time bidirectional communication
+- **LoRaWAN**: Long-range sensor networks
+
+### 4. Cloud Integration
+
+- AWS IoT Core setup and device provisioning
+- Google Cloud IoT with Cloud Functions
+- Azure IoT Hub and Digital Twins
+- Self-hosted solutions (Node-RED, Grafana, InfluxDB)
+
+### 5. Production-Ready Systems
+
+- Error handling and recovery strategies
+- Logging and remote diagnostics
+- Security: TLS, authentication, secure boot
+- Testing and validation approaches
+
+## Example Projects
+
+All projects include:
+
+- ✅ Complete source code (MIT licensed)
+- ✅ Hardware schematics and parts list
+- ✅ Step-by-step setup instructions
+- ✅ Troubleshooting guide
+- ✅ Video walkthrough
+
+**Featured Projects:**
+
+1. **Smart Home Dashboard** - ESP32 + sensors + web interface
+2. **Environmental Monitor** - Multi-sensor data logger with cloud sync
+3. **Industrial Gateway** - Modbus to MQTT bridge
+4. **Weather Station** - Solar-powered outdoor monitoring
+5. **Asset Tracker** - GPS + LoRa for location tracking
+
+## Community Impact
+
+- **100K+ video views** across tutorial series
+- **5K+ GitHub stars** across repositories
+- **2K+ newsletter subscribers** for weekly IoT tips
+- Active in maker communities (Reddit, Discord, forums)
+
+## Teaching Philosophy
+
+I believe technical education should be:
+
+- **Practical**: Every tutorial builds something real and useful
+- **Accessible**: Clear explanations without unnecessary jargon
+- **Complete**: From concept to deployment, nothing skipped
+- **Honest**: Show the failures and debugging, not just success
+
+The best way to learn IoT development is by building real projects and understanding why things work (or don't). My content focuses on the "why" as much as the "how."
+
+## Upcoming Content
+
+Working on a comprehensive **ESP32 IoT Development Course** covering:
+
+- Hardware fundamentals and best practices
+- Firmware development with ESP-IDF and Arduino
+- Protocol implementation and optimization
+- Cloud integration patterns
+- Security and production considerations
+- Real-world project case studies
+
+Expected launch: Q2 2026
+
+## Get Involved
+
+All code is open-source and contributions are welcome! If you build something cool using these tutorials, I'd love to hear about it.
+
+📺 [YouTube: @highvoltages](https://www.youtube.com/@highvoltages)
+🌐 [Website: highvoltages.co](https://www.highvoltages.co)
+🐙 [GitHub: @asimzulfiqar](https://github.com/asimzulfiqar)

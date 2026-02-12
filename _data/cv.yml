@@ -2,96 +2,152 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Asim Zulfiqar
+    - name: Location
+      value: Munich, Germany
     - name: Languages
-      value: English, German
+      value: English, Urdu, German (Basic)
+    - name: Email
+      value: asimzulfiqar67@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD (In Progress)
+      institution: IoT and Embedded Systems Research
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Focusing on Internet of Things and embedded systems
+        - Research in sensor networks and data acquisition
+        - Agricultural IoT applications
+    - title: Master's Degree - Erasmus Mundus
+      institution: Photonics Integrated Circuits, Sensors and Networks
+      year: 2018 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Joint degree program across Italy, UK, and Japan
+        - Specialized in photonic sensors and integrated circuits
+        - International collaboration and research experience
+    - title: Bachelor's Degree
+      institution: Electronic Engineering
+      year: 2014 - 2018
+      description:
+        - Foundation in electronic systems and circuit design
+        - Embedded systems and microcontroller programming
+        - Signal processing and communication systems
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Scientific Programmer for IoT Research Projects
+      institution: Leibniz-Rechenzentrum (LRZ), Munich, Germany
+      year: 2022-09 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Real-time IoT data collection using LoRaWAN, TTN, and MQTT
+        - REST API development for IoT sensor data exchange
+        - Web-based data visualization with InfluxDB and Grafana
+        - Monitoring and alerting systems using Prometheus
+        - Virtual server management in LRZ Compute Cloud using Ansible
+        - Agricultural IoT research and sensor network deployment
+
+    - title: IoT Content Creator
+      institution: High Voltages (highvoltages.co)
+      year: 2017-12 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Created 50+ technical tutorials on IoT protocols and embedded systems
+        - Blog and YouTube channel with 1M+ views
+        - Technical writing on MQTT, Python, Arduino, Raspberry Pi, ESP32
+        - SEO optimization and content marketing strategies
+        - Community engagement and educational content development
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Embedded and IoT Developer (Freelance)
+      institution: Fiverr & Upwork
+      year: 2017-12 - 2022-09
       description:
+        - Completed 230+ IoT and embedded systems projects
+        - ESP32, ESP8266, Arduino, Raspberry Pi development
+        - MQTT, HTTP, AWS IoT, Azure IoT integration
+        - Industrial monitoring, agriculture, e-commerce analytics
+        - Custom sensor networks and data acquisition systems
+        - Technical consultation and system architecture design
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Online STEM & Coding Instructor
+      institution: First Code Academy, Hong Kong (Remote)
+      year: 2021-10 - 2022-06
+      description:
+        - Taught programming to children (Scratch, Python, block programming)
+        - MIT App Inventor and Android Studio instruction
+        - Developed lesson plans and assessed student progress
+        - Collaborated on STEM program design and delivery
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Hardware & Embedded Systems
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - ESP32, ESP8266, Arduino, Raspberry Pi, nRF52
+        - Custom PCB design and prototyping
+        - Sensor integration and calibration
+        - Industrial-grade sensors and actuators
+        - Low-power design and battery optimization
+    - title: Software & Programming
       items:
-        - Description 1.
-        - Description 2.
+        - Python, C/C++, Java, JavaScript/TypeScript
+        - Embedded firmware development (ESP-IDF, Arduino)
+        - Linux system administration and scripting
+        - Web development (React, FastAPI, Node.js)
+        - Database design (PostgreSQL, InfluxDB, TimescaleDB)
+    - title: IoT Protocols & Cloud
+      items:
+        - MQTT, HTTP/REST, WebSockets, Modbus, LoRaWAN
+        - AWS IoT Core, Azure IoT Hub, Google Cloud IoT
+        - InfluxDB, Grafana, Prometheus monitoring
+        - Docker, Kubernetes container orchestration
+        - Ansible automation and infrastructure as code
+    - title: Data & Analytics
+      items:
+        - Time-series data analysis and visualization
+        - Real-time data pipelines (Kafka, Redis)
+        - Machine learning for anomaly detection
+        - Predictive maintenance algorithms
+        - ETL processes and data transformation
 
-- title: Other Interests
+- title: Notable Projects
+  type: time_table
+  contents:
+    - title: <a href="https://asimzulfiqar.github.io/projects/2_project/">Industrial Equipment Monitoring</a>
+      year: 2022 - 2024
+      description: Real-time monitoring system deployed across 12 manufacturing facilities. 35% reduction in downtime, $200K+ annual savings.
+    - title: <a href="https://asimzulfiqar.github.io/projects/3_project/">Smart Agricultural Monitoring</a>
+      year: 2022 - 2024
+      description: Precision agriculture with LoRaWAN sensor networks. 40% water reduction, 25% yield increase across 8 sites.
+    - title: <a href="https://asimzulfiqar.github.io/projects/4_project/">E-Commerce Analytics Platform</a>
+      year: 2021 - 2023
+      description: Real-time analytics for 15+ businesses. Handles 50M+ events/day with 99.9% uptime.
+    - title: <a href="https://asimzulfiqar.github.io/projects/1_project/">COSOT Band (NFC Wearable)</a>
+      year: 2019 - 2020
+      description: World's first NFC-based safety wearable for emergency messaging with location tracking.
+
+- title: Content Creation & Community
+  type: nested_list
+  contents:
+    - title: Online Presence
+      items:
+        - YouTube channel (@highvoltages) with 50+ IoT tutorials
+        - Technical blog (highvoltages.co) with 1M+ views
+        - GitHub repositories with 5K+ stars
+        - Newsletter with 2K+ subscribers
+    - title: Teaching & Workshops
+      items:
+        - ESP32 development tutorials and courses
+        - IoT protocol deep-dives (MQTT, HTTP, LoRaWAN)
+        - Cloud integration guides (AWS, Azure, Google Cloud)
+        - Production-ready IoT system design
+        - Open-source project contributions
+
+- title: Interests & Philosophy
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Technology for Impact:</b> Building IoT solutions that solve real-world problems in agriculture, industry, and sustainability
+    - <b>Knowledge Sharing:</b> Creating accessible technical education through tutorials, blogs, and open-source projects
+    - <b>Practical Engineering:</b> Focusing on production-ready systems that work reliably in harsh environments
+    - <b>Continuous Learning:</b> Staying current with emerging technologies and contributing to maker communities

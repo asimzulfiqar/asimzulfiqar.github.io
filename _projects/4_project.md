@@ -1,80 +1,111 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: E-Commerce Analytics Platform
+description: Real-time customer behavior tracking and inventory management system for online retailers. Provides actionable insights through data visualization and automated reporting.
+img: assets/img/5.jpg
+importance: 4
+category: work
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Built a comprehensive analytics platform for e-commerce businesses to track customer behavior, monitor inventory levels, and optimize operations. The system integrates with popular e-commerce platforms (Shopify, WooCommerce, custom solutions) and provides real-time insights through interactive dashboards.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## System Components
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Data Collection:**
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- REST API integrations with e-commerce platforms
+- Webhook listeners for real-time event processing
+- Custom JavaScript tracking pixel for website analytics
+- Server-side tracking for backend operations
+- Mobile app SDK for in-app analytics
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Data Pipeline:**
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Apache Kafka for event streaming
+- Python ETL pipelines for data transformation
+- Redis for caching and real-time aggregations
+- TimescaleDB for time-series metrics
+- Elasticsearch for product search analytics
 
-{% raw %}
+**Visualization & Reporting:**
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Custom React dashboards with real-time updates
+- Grafana for operational metrics
+- Automated daily/weekly email reports
+- Slack/Discord integrations for alerts
+- Mobile app for on-the-go monitoring
 
-{% endraw %}
+## Key Features
+
+**Customer Analytics:**
+
+- Real-time visitor tracking and session analysis
+- Funnel analysis: landing → browse → cart → checkout
+- Cohort analysis for customer retention
+- Customer lifetime value (CLV) calculations
+- Churn prediction using ML models
+
+**Inventory Management:**
+
+- Real-time stock level monitoring across warehouses
+- Low-stock alerts with automated reorder suggestions
+- Demand forecasting based on historical trends
+- Product performance rankings
+- Dead stock identification
+
+**Sales Insights:**
+
+- Revenue tracking by product, category, and region
+- Conversion rate optimization recommendations
+- Pricing elasticity analysis
+- Promotion effectiveness measurement
+- Seasonal trend identification
+
+**Operational Metrics:**
+
+- Order processing time tracking
+- Shipping performance monitoring
+- Customer support ticket integration
+- Return rate analysis by product/category
+- Payment gateway performance
+
+## Client Results
+
+Deployed for **15+ e-commerce businesses** ranging from small shops to $10M+ annual revenue:
+
+**Case Study - Fashion Retailer:**
+
+- **32% increase** in conversion rate through funnel optimization
+- **18% reduction** in cart abandonment via targeted interventions
+- **$150K saved annually** through better inventory management
+- **45 minutes daily** saved through automated reporting
+
+**Case Study - Electronics Shop:**
+
+- Identified top 20% products driving 75% of revenue
+- Reduced overstock by **28%** through demand forecasting
+- Improved customer retention by **15%** via cohort analysis
+- Detected and fixed checkout bottleneck saving **10% lost sales**
+
+## Technical Architecture
+
+**Scalability:**
+
+- Handles **50M+ events/day** across all clients
+- Sub-second dashboard updates using WebSocket connections
+- Horizontal scaling via Kubernetes
+- Multi-tenant architecture with data isolation
+
+**Reliability:**
+
+- 99.9% uptime SLA
+- Automated failover and recovery
+- Event replay capability for data consistency
+- Comprehensive monitoring and alerting
+
+## Technologies Used
+
+`Python` `FastAPI` `React` `TypeScript` `Kafka` `Redis` `PostgreSQL` `TimescaleDB` `Elasticsearch` `Docker` `Kubernetes` `WebSockets` `REST APIs` `ETL`

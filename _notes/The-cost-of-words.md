@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Poem: The Cost of words"
+title: "Poem:  لفظوں کی قیمت (The Cost of Words)"
 date: 2025-10-19
 inline: false
 related_posts: false
 tags: [Poem, Philosophical, Urdu, reflection]
 ---
-
-# لفظوں کی قیمت (The Cost of Words)
 
 *لفظ جو تم منہ سے کہہ دیتے ہو*  
 *(Lafz jo tum muh se keh dete ho)*  

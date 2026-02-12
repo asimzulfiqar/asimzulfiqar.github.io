@@ -7,8 +7,6 @@ related_posts: false
 tags: [Time, metaphor, philosophy, Poem]
 ---
 
-# Time - Money or Resource ?
-
 On an unusual day,  
 while wandering inside myself,  
 I saw Time — sitting on the side.
@@ -59,4 +57,4 @@ maybe when I will have time."
 ---
 
 **— Asim Zulfiqar**  
-(Inspired from the book Metaphors we live by - Book by George Lakoff and Mark Johnson)
+(Inspired from the book [Metaphors we live by - Book by George Lakoff and Mark Johnson](https://www.goodreads.com/book/show/34459.Metaphors_We_Live_By))

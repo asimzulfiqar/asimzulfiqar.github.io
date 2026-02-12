@@ -7,9 +7,7 @@ related_posts: false
 tags: [Poem, Philosophy, reflection]
 ---
 
-# Two Journeys
-
-One should walk outside 
+One should walk outside,
 but also walk within. 
 
 Outside, everything is separate; 

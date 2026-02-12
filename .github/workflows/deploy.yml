@@ -67,12 +67,28 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Detect changes
+        id: changes
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            images:
+              - 'assets/img/**'
+              - '**/*.{jpg,jpeg,png,tiff,gif}'
+            notebooks:
+              - '**/*.ipynb'
+              - '_jupyter/**'
+            styles:
+              - 'assets/css/**'
+              - '_sass/**'
+              - 'purgecss.config.js'
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
       - name: Install ImageMagick 🖼️
+        if: steps.changes.outputs.images == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick libmagickwand-dev
@@ -83,12 +99,32 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install and Build 🔧
+      - name: Cache pip
+        if: steps.changes.outputs.notebooks == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+      - name: Install Jupyter
+        if: steps.changes.outputs.notebooks == 'true'
         run: |
           pip3 install --upgrade jupyter
+      - name: Cache npm
+        if: steps.changes.outputs.styles == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Install and Build 🔧
+        run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
+        if: steps.changes.outputs.styles == 'true'
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js

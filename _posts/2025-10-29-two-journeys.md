@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two Journeys"
-date: 2026-10-29
+date: 2025-10-29
 inline: false
 related_posts: false
 tags: [Poem, Philosophy, reflection]

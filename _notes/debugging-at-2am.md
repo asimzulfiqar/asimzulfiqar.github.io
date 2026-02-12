@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debugging at 2 AM: A Developer's Meditation"
+title: "Debugging at 2 AM: A Developer Meditation"
 date: 2026-02-10
 inline: false
 related_posts: false

@@ -1,0 +1,207 @@
+// Modern social icons styling with brand colors
+
+.social {
+  a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+
+    i {
+      transition: all 0.3s ease;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+  // Email
+  a[title="email"] i {
+    color: #ea4335;
+    &:hover {
+      color: #c5221f;
+    }
+  }
+
+  // GitHub
+  a[title="GitHub"] i {
+    color: #333;
+    &:hover {
+      color: #000;
+    }
+  }
+
+  // LinkedIn
+  a[title="LinkedIn"] i {
+    color: #0077b5;
+    &:hover {
+      color: #005582;
+    }
+  }
+
+  // YouTube
+  a[title="YouTube"] i {
+    color: #ff0000;
+    &:hover {
+      color: #cc0000;
+    }
+  }
+
+  // Google Scholar
+  a[title="Google Scholar"] i {
+    color: #4285f4;
+    &:hover {
+      color: #1a73e8;
+    }
+  }
+
+  // Blogger
+  a[title="Blogger"] i {
+    color: #ff5722;
+    &:hover {
+      color: #e64a19;
+    }
+  }
+
+  // RSS
+  a[title="RSS Feed"] i {
+    color: #ff6600;
+    &:hover {
+      color: #cc5200;
+    }
+  }
+
+  // Twitter/X
+  a[title="X"] i {
+    color: #000;
+    &:hover {
+      color: #333;
+    }
+  }
+
+  // Medium
+  a[title="Medium"] i {
+    color: #000;
+    &:hover {
+      color: #333;
+    }
+  }
+
+  // Instagram
+  a[title="Instagram"] i {
+    color: #e4405f;
+    &:hover {
+      color: #c13584;
+    }
+  }
+
+  // Facebook
+  a[title="Facebook"] i {
+    color: #1877f2;
+    &:hover {
+      color: #0e5fce;
+    }
+  }
+
+  // Discord
+  a[title="Discord"] i {
+    color: #5865f2;
+    &:hover {
+      color: #4752c4;
+    }
+  }
+
+  // Telegram
+  a[title="telegram"] i {
+    color: #0088cc;
+    &:hover {
+      color: #006699;
+    }
+  }
+
+  // WhatsApp
+  a[title="whatsapp"] i {
+    color: #25d366;
+    &:hover {
+      color: #1da851;
+    }
+  }
+
+  // Stack Overflow
+  a[title="Stackoverflow"] i {
+    color: #f48024;
+    &:hover {
+      color: #d16616;
+    }
+  }
+
+  // ResearchGate
+  a[title="ResearchGate"] i {
+    color: #00d0af;
+    &:hover {
+      color: #00a88c;
+    }
+  }
+
+  // ORCID
+  a[title="ORCID"] i {
+    color: #a6ce39;
+    &:hover {
+      color: #8bb92d;
+    }
+  }
+
+  // Mastodon
+  a[title="Mastodon"] i {
+    color: #6364ff;
+    &:hover {
+      color: #4b4cdb;
+    }
+  }
+
+  // Spotify
+  a[title="Spotify"] i {
+    color: #1db954;
+    &:hover {
+      color: #1aa34a;
+    }
+  }
+
+  // Kaggle
+  a[title="Kaggle"] i {
+    color: #20beff;
+    &:hover {
+      color: #0099cc;
+    }
+  }
+}
+
+// Dark mode adjustments
+html.dark-mode {
+  .social {
+    // GitHub - lighter in dark mode
+    a[title="GitHub"] i {
+      color: #f0f6fc;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    // Medium - lighter in dark mode
+    a[title="Medium"] i {
+      color: #f0f6fc;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    // Twitter/X - lighter in dark mode
+    a[title="X"] i {
+      color: #f0f6fc;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

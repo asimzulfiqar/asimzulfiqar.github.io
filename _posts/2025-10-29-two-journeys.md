@@ -4,7 +4,7 @@ title: "Two Journeys"
 date: 2025-10-29
 inline: false
 related_posts: false
-tags: [Poem, Philosophy, reflection]
+tags: [poem, philosophy, reflection]
 ---
 
 One should walk outside,

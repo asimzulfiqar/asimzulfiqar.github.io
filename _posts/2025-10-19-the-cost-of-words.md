@@ -4,7 +4,7 @@ title: "Poem:  لفظوں کی قیمت (The Cost of Words)"
 date: 2025-10-19
 inline: false
 related_posts: false
-tags: [Poem, Philosophical, Urdu, reflection]
+tags: [poem, philosophy, urdu, reflection]
 ---
 
 *لفظ جو تم منہ سے کہہ دیتے ہو*  

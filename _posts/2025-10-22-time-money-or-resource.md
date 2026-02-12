@@ -4,7 +4,7 @@ title: "Poem: Time - Money or resource ?"
 date: 2025-10-22
 inline: false
 related_posts: false
-tags: [Time, metaphor, philosophy, Poem]
+tags: [time, metaphor, philosophy, poem]
 ---
 
 On an unusual day,  

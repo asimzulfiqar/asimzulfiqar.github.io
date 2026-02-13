@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two Journeys"
+title: "Poem: Two Journeys"
 date: 2025-10-29
 inline: false
 related_posts: false

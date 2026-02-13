@@ -1,111 +1,64 @@
 ---
 layout: page
-title: E-Commerce Analytics Platform
-description: Real-time customer behavior tracking and inventory management system for online retailers. Provides actionable insights through data visualization and automated reporting.
-img: assets/img/5.jpg
-importance: 4
+title: Industrial Car Wash Automation System
+description: A Controllino PLC-based automated car wash control system with integrated payment terminal, multi-state operation, visual feedback, and receipt printing capabilities for commercial vehicle washing operations.
+img: assets/img/car-wash-system.png
+importance: 1
 category: work
 related_publications: false
 ---
 
-## Project Overview
+An industrial automation solution for commercial car wash operations, integrating payment processing, state machine control logic, sensor monitoring, and customer feedback systems through a Controllino MAXI PLC platform running custom Arduino firmware.
 
-Built a comprehensive analytics platform for e-commerce businesses to track customer behavior, monitor inventory levels, and optimize operations. The system integrates with popular e-commerce platforms (Shopify, WooCommerce, custom solutions) and provides real-time insights through interactive dashboards.
+## System Overview
 
-## System Components
+The system controls a complete car wash operation cycle with integrated payment validation, multi-stage washing sequences, real-time sensor monitoring, and automated receipt generation. The controller manages all aspects of operation from payment acceptance through wash cycle completion with comprehensive visual feedback through LED indicators.
 
-**Data Collection:**
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/car-wash-system.png" title="Car Wash Control System" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Industrial car wash automation system with Controllino PLC controlling payment integration, sensor monitoring, and wash cycle progression with visual LED feedback.
+</div>
 
-- REST API integrations with e-commerce platforms
-- Webhook listeners for real-time event processing
-- Custom JavaScript tracking pixel for website analytics
-- Server-side tracking for backend operations
-- Mobile app SDK for in-app analytics
+## Control Architecture
 
-**Data Pipeline:**
+**State Machine Implementation**: Designed finite state machine with five distinct operational states including standby, payment verification, pressure detection, flow monitoring, and completion. Each state transition is triggered by specific sensor inputs or timeout conditions, ensuring safe and predictable operation sequences.
 
-- Apache Kafka for event streaming
-- Python ETL pipelines for data transformation
-- Redis for caching and real-time aggregations
-- TimescaleDB for time-series metrics
-- Elasticsearch for product search analytics
+**Payment Terminal Integration**: Implemented relay-based communication protocol with third-party payment terminal supporting multiple payment tiers. System detects payment completion pulses and unlocks operation accordingly, with automatic timeout and reset functionality to prevent unauthorized usage.
 
-**Visualization & Reporting:**
+**Sensor Fusion and Debouncing**: Integrated pressure switch and flow sensor inputs with 1-second software debounce filters to eliminate false triggers from electrical noise and mechanical vibrations. Real-time sensor state monitoring enables adaptive control logic based on actual operating conditions.
 
-- Custom React dashboards with real-time updates
-- Grafana for operational metrics
-- Automated daily/weekly email reports
-- Slack/Discord integrations for alerts
-- Mobile app for on-the-go monitoring
+## User Interface and Feedback
 
-## Key Features
+**NeoPixel LED Progression**: Programmed dual 30-LED RGB strips providing real-time visual feedback of wash cycle progress. Implemented non-blocking LED animation routines including progressive illumination, flashing patterns, and color-coded state indication with separate timing control for different operational modes.
 
-**Customer Analytics:**
+**Button Interface**: Dual push-button control with integrated LED indicators for start/stop operations. Implemented non-blocking debounce logic and state-aware button handling to prevent accidental activation during active wash cycles.
 
-- Real-time visitor tracking and session analysis
-- Funnel analysis: landing → browse → cart → checkout
-- Cohort analysis for customer retention
-- Customer lifetime value (CLV) calculations
-- Churn prediction using ML models
+**Thermal Receipt Printer**: Configured RS232 serial communication with VKP80II thermal printer using ESC/POS command protocol. Developed custom print formatting functions supporting variable receipt templates based on payment tier, timestamp generation from onboard RTC, and automatic paper feed and cut commands.
 
-**Inventory Management:**
+## Hardware Integration
 
-- Real-time stock level monitoring across warehouses
-- Low-stock alerts with automated reorder suggestions
-- Demand forecasting based on historical trends
-- Product performance rankings
-- Dead stock identification
+**Controllino MAXI PLC**: Utilized industrial-grade Arduino-compatible PLC with 24V I/O, real-time clock, multiple communication interfaces, and DIN-rail mountable housing. Configured analog and digital inputs for sensor monitoring, relay outputs for actuator control, and software serial for printer communication.
 
-**Sales Insights:**
+**Relay Control Logic**: Implemented output control for pressure washer activation, payment terminal enable/disable, and counter pulse generation. Designed interlock logic preventing simultaneous conflicting operations and ensuring safe shutdown sequences.
 
-- Revenue tracking by product, category, and region
-- Conversion rate optimization recommendations
-- Pricing elasticity analysis
-- Promotion effectiveness measurement
-- Seasonal trend identification
+**Real-Time Clock Integration**: Configured Controllino RTC module for accurate timestamping of wash cycles and receipt generation. Implemented automatic compile-time initialization with persistent timekeeping across power cycles.
 
-**Operational Metrics:**
+## Firmware Development
 
-- Order processing time tracking
-- Shipping performance monitoring
-- Customer support ticket integration
-- Return rate analysis by product/category
-- Payment gateway performance
+**Non-Blocking Architecture**: Developed entirely non-blocking control code using millis()-based timing for all delays, LED animations, and timeout functions. This architecture ensures responsive button handling and smooth LED transitions without code execution blocking.
 
-## Client Results
+**Progressive LED Control**: Engineered separate progression tracking for different wash modes with independent timing intervals (12.5 seconds for standard mode, 2.5 seconds for express mode). Implemented automatic LED strip reset and continuation logic maintaining visual feedback across state transitions.
 
-Deployed for **15+ e-commerce businesses** ranging from small shops to $10M+ annual revenue:
+**Error Handling and Recovery**: Built comprehensive timeout mechanisms and emergency stop functionality via red button interrupt. System automatically returns to standby mode after preset inactivity periods or manual abort, with complete state reset and hardware deactivation.
 
-**Case Study - Fashion Retailer:**
+## Results and Deployment
 
-- **32% increase** in conversion rate through funnel optimization
-- **18% reduction** in cart abandonment via targeted interventions
-- **$150K saved annually** through better inventory management
-- **45 minutes daily** saved through automated reporting
-
-**Case Study - Electronics Shop:**
-
-- Identified top 20% products driving 75% of revenue
-- Reduced overstock by **28%** through demand forecasting
-- Improved customer retention by **15%** via cohort analysis
-- Detected and fixed checkout bottleneck saving **10% lost sales**
-
-## Technical Architecture
-
-**Scalability:**
-
-- Handles **50M+ events/day** across all clients
-- Sub-second dashboard updates using WebSocket connections
-- Horizontal scaling via Kubernetes
-- Multi-tenant architecture with data isolation
-
-**Reliability:**
-
-- 99.9% uptime SLA
-- Automated failover and recovery
-- Event replay capability for data consistency
-- Comprehensive monitoring and alerting
+Successfully deployed automated car wash control system providing reliable payment-to-completion operation cycles. The system enables unattended operation with clear visual feedback, automated receipt generation, and fail-safe shutdown mechanisms. Multi-tier payment support allows flexible pricing strategies while maintaining consistent user experience across different service levels.
 
 ## Technologies Used
 
-`Python` `FastAPI` `React` `TypeScript` `Kafka` `Redis` `PostgreSQL` `TimescaleDB` `Elasticsearch` `Docker` `Kubernetes` `WebSockets` `REST APIs` `ETL`
+`Arduino` `Controllino MAXI PLC` `C/C++` `State Machine` `Adafruit NeoPixel` `RS232 Serial` `ESC/POS Protocol` `Real-Time Clock` `Relay Control` `Sensor Integration` `Hardware Debouncing` `Non-Blocking Programming` `Industrial Automation` `PLC Programming`

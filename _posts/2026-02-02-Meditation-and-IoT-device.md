@@ -30,17 +30,35 @@ Now, of course, if we're adding all this hardware, we want to *use* it. We progr
 
 ```mermaid
 graph TD
-    A[Arduino UNO] --> B[Temperature Sensor]
-    A --> C[Touch Sensor]
-    A --> D[Microphone]
-    A --> E[Camera]
-    A --> F[Gyroscope]
-    A --> G[Motors]
-    A --> H[Relays]
-    A --> I[Solenoids]
-    A --> J[Fans]
+    A[Arduino UNO]
     
-    style A fill:#00979D,stroke:#333,stroke-width:3px,color:#fff
+    subgraph Inputs[" "]
+        B[Temperature]
+        C[Touch]
+        D[Microphone]
+        E[Camera]
+        F[Gyroscope]
+    end
+    
+    subgraph Outputs[" "]
+        G[Motors]
+        H[Relays]
+        I[Solenoids]
+        J[Fans]
+    end
+    
+    B --> A
+    C --> A
+    D --> A
+    E --> A
+    F --> A
+    
+    A --> G
+    A --> H
+    A --> I
+    A --> J
+    
+    style A fill:#00979D,stroke:#333,stroke-width:4px,color:#fff
     style B fill:#4A90E2,stroke:#333,stroke-width:2px
     style C fill:#4A90E2,stroke:#333,stroke-width:2px
     style D fill:#4A90E2,stroke:#333,stroke-width:2px
@@ -69,8 +87,8 @@ No if-statements. No actions. No motors turning on or off. Just observation—wa
 
 And that, my friend, is exactly what meditation is.
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/meditiating-arduino.png" title="Meditating Arduino" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -127,14 +145,12 @@ thought_stream: "what should I have for dinner"
 breath_depth: 0.8
 foot_pressure: 0.4
 ...
-```
+````
 
 No judgments. No actions. Just debugging your sensors, watching what's already happening.
 
 That's all meditation is.
 
 And sometimes, that's everything.
-```
-
----
+````
 

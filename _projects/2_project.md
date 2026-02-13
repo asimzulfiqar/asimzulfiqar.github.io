@@ -3,7 +3,7 @@ layout: page
 title: Hotel Room Automation System – Smart IoT Control Platform
 description: A Raspberry Pi-based IoT platform for hotel room automation managing 50+ rooms with centralized monitoring, control dashboards, and real-time data visualization for lights, HVAC, curtains, and environmental sensors.
 img: assets/img/hotel-room-control.png
-importance: 2
+importance: 1
 category: work
 related_publications: false
 ---
@@ -114,7 +114,7 @@ System monitoring through Node Exporter provides hardware metrics to Prometheus,
 
 ---
 
-**Technologies**: Raspberry Pi, Node-RED, EMQX MQTT, InfluxDB, Python, Grafana, Prometheus, MQTT Protocol, Ansible
+**Technologies**: `Raspberry Pi`, `Node-RED`, `EMQX MQTT`, `InfluxDB`, `Python`, `Grafana`, `Prometheus`, `MQTT Protocol`, `Ansible`
 
 **Deployment**: Raspberry Pi 4 with systemd service management
 

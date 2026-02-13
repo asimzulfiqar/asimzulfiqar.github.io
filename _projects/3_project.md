@@ -1,89 +1,63 @@
 ---
 layout: page
-title: Smart Agricultural Monitoring System
-description: Precision agriculture solution using wireless sensor networks for soil monitoring, irrigation control, and crop health tracking. Helps farmers optimize water usage and improve yields.
-img: assets/img/7.jpg
-importance: 3
+title: Enterprise Network Monitoring Platform
+description: A comprehensive Grafana Cloud-based monitoring solution for multi-vendor network infrastructure with centralized metrics collection, log aggregation, and intelligent alerting across Huawei, Mikrotik, and Cisco equipment.
+img: assets/img/grafana-dashboard.png
+importance: 1
 category: work
 related_publications: false
 ---
 
-## Project Background
-
-This agricultural IoT system was developed as part of my research work as a Scientific Programmer. The project addresses water scarcity and crop optimization challenges through real-time environmental monitoring and data-driven decision making.
+A production-grade monitoring infrastructure delivering unified visibility into enterprise network operations, providing real-time performance metrics, automated incident detection, and multi-channel alerting across heterogeneous network devices including routers, switches, and optical line terminals.
 
 ## System Architecture
 
-**Sensor Network:**
+The platform integrates Prometheus for time-series metrics collection, Loki for centralized log aggregation, and Grafana Cloud for visualization and alerting. The architecture supports multi-vendor network equipment through standardized monitoring protocols including SNMP, syslog, and vendor-specific exporters, providing a single pane of glass for network operations.
 
-- Soil moisture sensors (capacitive and resistive)
-- Ambient temperature and humidity (DHT22, BME280)
-- Light intensity sensors (BH1750) for photosynthesis tracking
-- pH sensors for soil chemistry
-- Rainfall gauges for precipitation monitoring
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/grafana-dashboard.png" title="Network Monitoring Dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Grafana dashboard displaying real-time server metrics including CPU utilization, memory usage, network traffic, and disk I/O across monitored infrastructure with 10.9 weeks of uptime.
+</div>
 
-**Field Devices:**
+## Key Components
 
-- ESP32-based nodes with solar power and battery backup
-- LoRaWAN for long-range communication (up to 15km)
-- Weather-resistant enclosures (IP67 rated)
-- Low-power mode for extended battery life (6+ months)
+**Metrics Collection Infrastructure**: Deployed Prometheus with 15-second scrape intervals collecting metrics from SNMP Exporter for network devices, Node Exporter for Linux servers, and Windows Exporter for Windows systems. Configured Grafana PDC (Private Data Source Connect) agent to establish secure tunnel between on-premise Prometheus and Grafana Cloud, enabling hybrid cloud monitoring architecture.
 
-**Backend Infrastructure:**
+**Log Aggregation Pipeline**: Implemented Loki with Promtail agents for centralized syslog collection from Huawei NE40 routers and Mikrotik switches. Configured rsyslog for remote log forwarding and log rotation with 7-day retention policy, enabling efficient troubleshooting and compliance auditing across distributed network infrastructure.
 
-- Raspberry Pi edge gateways for data aggregation
-- MQTT broker for sensor data collection
-- PostgreSQL database with PostGIS for spatial data
-- RESTful API for mobile and web access
-- Automated irrigation control via relay modules
+**Multi-Channel Alerting System**: Designed notification templates and contact points for Email and Telegram delivery with Grafana OnCall integration. Created alert rules monitoring link status, LACP port health, optical power levels, and connectivity with customizable evaluation intervals and threshold-based triggering.
 
-## Key Capabilities
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/alerts.png" title="Alert Rules Dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Grafana alert rules dashboard showing 11 active monitoring rules including link down detection, port status monitoring, and connectivity checks with real-time health status and evaluation schedules.
+</div>
 
-**Monitoring & Analytics:**
+## Technical Implementation
 
-- Real-time soil moisture profiles at multiple depths
-- Microclimate tracking across different field zones
-- Historical trend analysis for seasonal patterns
-- Crop water stress indicators
+**Data Source Integration**: Connected multiple data sources including Zabbix for legacy monitoring, InfluxDB for time-series storage, LibreNMS for Huawei OLT monitoring, and Prometheus for metrics collection. All data sources accessed through Grafana PDC agent using SSH tunneling for secure communication between on-premise infrastructure and Grafana Cloud.
 
-**Automation:**
+**Dashboard Development**: Built custom Grafana dashboards for network-specific metrics and imported community dashboards for Node Exporter (ID: 1860) and Windows Exporter (ID: 2129). Dashboards provide visualization of interface statistics, optical transceiver temperatures, SFP power levels, CPU/memory utilization, and network traffic patterns with configurable time ranges and drill-down capabilities.
 
-- Intelligent irrigation scheduling based on soil conditions
-- Weather forecast integration for proactive watering
-- Zone-based control for variable field conditions
-- Manual override via mobile app
+**Network Device Configuration**: Configured Mikrotik routers to forward syslog events to Promtail via port 514 for log collection. Set up Huawei NE40 routers with info-center configuration directing logs to centralized syslog server. Implemented SNMP exporter with relabeling configurations for dynamic target discovery and metric enrichment.
 
-**Insights & Reporting:**
+## Deployment and Operations
 
-- Daily/weekly automated reports via email
-- Water usage tracking and optimization recommendations
-- Crop health indicators and growth stage tracking
-- Yield prediction models based on historical data
+**Service Management**: Deployed all monitoring components as systemd services on Linux with automatic restart policies and dedicated service accounts. Services include Prometheus (port 9090), Node Exporter (port 9100), Loki (port 3100), Promtail (port 9080), and SNMP Exporter (port 9116) with proper file permissions and resource limits.
 
-## Deployment Experience
+**Documentation and Knowledge Transfer**: Created comprehensive 22-page technical documentation covering installation procedures, configuration files, service management commands, data source setup, dashboard creation, and alerting configuration. Documentation includes step-by-step guides for adding new monitoring targets and troubleshooting common issues.
 
-Deployed across **8 agricultural sites** ranging from 2 to 50 hectares:
+## Results and Impact
 
-- Vegetable farms in southern Germany
-- Vineyard monitoring in Italy
-- Greenhouse operations in the Netherlands
-- Research plots at agricultural university
-
-## Impact
-
-- **40% reduction** in water consumption through optimized irrigation
-- **25% increase** in crop yields from better moisture management
-- **60+ hours/month** saved in manual monitoring and field walks
-- **ROI achieved** within 18 months of deployment
-
-## Technical Challenges Solved
-
-1. **Power management**: Achieved 6-month battery life through aggressive sleep modes and wake-on-interrupt
-2. **Range issues**: LoRaWAN enabled coverage of large fields without WiFi infrastructure
-3. **Data reliability**: Implemented local caching and store-and-forward for spotty connectivity
-4. **Calibration**: Developed in-situ calibration procedures for accurate soil moisture readings
-5. **Weather resistance**: All electronics survived -10°C to +50°C and heavy rain/dust
+Successfully deployed enterprise monitoring solution providing unified visibility across multi-vendor network infrastructure. The platform enables proactive incident detection through automated alerting, reduces mean time to resolution through centralized log analysis, and provides historical trending data for capacity planning and performance optimization. Alert rules continuously monitor critical infrastructure with sub-minute evaluation intervals, ensuring rapid response to network events.
 
 ## Technologies Used
 
-`ESP32` `LoRaWAN` `Python` `Raspberry Pi` `PostgreSQL` `PostGIS` `MQTT` `Solar Power` `Soil Sensors` `Precision Agriculture`
+`Prometheus` `Grafana` `Grafana Cloud` `Loki` `Promtail` `Node Exporter` `SNMP Exporter` `Windows Exporter` `InfluxDB` `Zabbix` `LibreNMS` `Rsyslog` `Systemd` `Linux` `Grafana OnCall` `Telegram API` `Grafana PDC` `SSH Tunneling` `YAML` `Syslog`

@@ -126,7 +126,7 @@ The multi-year comparison feature helps identify climate trends and adjust manag
 
 ---
 
-**Technologies**: Django, Python, SQLite, Akenza API, OpenWeather API, Open-Meteo API, LoRaWAN, Chart.js, Leaflet.js, Tailwind CSS, Gunicorn
+**Technologies**: `Django`, `Python`, `SQLite`, `Akenza API`, `OpenWeather API, Open-Meteo API`, `LoRaWAN`, `Chart.js`, `Leaflet.js`, `Tailwind CSS`, `Gunicorn`
 
 **Deployment**: UpCloud VPS
 

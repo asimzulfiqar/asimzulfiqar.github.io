@@ -12,7 +12,7 @@ mermaid:
   zoomable: true
 ---
 
-I've known the word "meditation" for a very long time, but it was really hard to understand what it actually *is*. Recently, since I've been reading *Metaphors We Live By*, I've realized that some complex things can be explained using other things, and it suddenly makes sense. In this reflection, I'll share how an IoT device might meditate—and this, in return, might teach us how to meditate, since we often understand technical things easier than deep philosophical concepts.
+I've known the word "meditation" for a very long time, but it was really hard to understand what it actually *is*. Recently, since I've been reading *[Metaphors we live by - Book by George Lakoff and Mark Johnson](https://www.goodreads.com/book/show/34459.Metaphors_We_Live_By)*, I've realized that some complex things can be explained using other things, and it suddenly makes sense. In this reflection, I'll share how an IoT device might meditate—and this, in return, might teach us how to meditate, since we often understand technical things easier than deep philosophical concepts.
 
 ## The Arduino Setup
 

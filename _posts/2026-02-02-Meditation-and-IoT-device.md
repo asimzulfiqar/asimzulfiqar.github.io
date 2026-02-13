@@ -1,12 +1,15 @@
 ---
+layout: post
 title: "Understanding Meditation Through IoT Devices"
 date: 2026-02-13
-draft: false
+inline: false
+related_posts: false
+description: "What if meditation is just Serial.println() for humans? An IoT engineer's guide to understanding meditation through Arduino debugging."
 tags: ["meditation", "IoT", "philosophy", "embedded-systems"]
-cover:
-    image: " assets/img/meditiating-arduino.png"
-    alt: "Meditation as debugging consciousness"
-    caption: "Debugging an Arduino board and debugging consciousness: both require watching the data without immediately reacting to it."
+thumbnail: "assets/img/meditiating-arduino.png"
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 I've known the word "meditation" for a very long time, but it was really hard to understand what it actually *is*. Recently, since I've been reading *Metaphors We Live By*, I've realized that some complex things can be explained using other things, and it suddenly makes sense. In this reflection, I'll share how an IoT device might meditate—and this, in return, might teach us how to meditate, since we often understand technical things easier than deep philosophical concepts.
@@ -25,17 +28,29 @@ Based on these sensor readings, we might need to trigger actions, so let's imagi
 
 Now, of course, if we're adding all this hardware, we want to *use* it. We program the Arduino so that when the temperature exceeds a threshold, a fan turns on. When the touch sensor is triggered, a motor activates. When the gyroscope detects movement, relays switch. We write code that fulfills our requirements—responding to sensor data with corresponding actions.
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/meditiating-arduino.png" title="Meditating Arduino" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gts-monitor-comparison.png" title="Multi-year GTS Comparison" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Prompt: A personified Arduino UNO board in meditation pose: the circuit board sits cross-legged (lotus position) with small robotic legs, its GPIO pins forming arms that rest gently on its knees in a classic meditation mudra. Thin sensor wires (temperature, touch, gyroscope sensors) connect to the board like neural pathways, gently glowing. A holographic Serial Monitor display floats in front showing scrolling sensor values in green monospace text. Peaceful ambient lighting, dark gradient background (navy to deep purple), subtle particle effects suggesting data flow. The overall mood: technology meeting mindfulness. Art style: modern 3D render with soft lighting, slightly whimsical but respectful.
-</div>
+```mermaid
+graph TD
+    A[Arduino UNO] --> B[Temperature Sensor]
+    A --> C[Touch Sensor]
+    A --> D[Microphone]
+    A --> E[Camera]
+    A --> F[Gyroscope]
+    A --> G[Motors]
+    A --> H[Relays]
+    A --> I[Solenoids]
+    A --> J[Fans]
+    
+    style A fill:#00979D,stroke:#333,stroke-width:3px,color:#fff
+    style B fill:#4A90E2,stroke:#333,stroke-width:2px
+    style C fill:#4A90E2,stroke:#333,stroke-width:2px
+    style D fill:#4A90E2,stroke:#333,stroke-width:2px
+    style E fill:#4A90E2,stroke:#333,stroke-width:2px
+    style F fill:#4A90E2,stroke:#333,stroke-width:2px
+    style G fill:#E8B339,stroke:#333,stroke-width:2px
+    style H fill:#E8B339,stroke:#333,stroke-width:2px
+    style I fill:#E8B339,stroke:#333,stroke-width:2px
+    style J fill:#E8B339,stroke:#333,stroke-width:2px
+```
 
 ## When Things Don't Work: The Debug Mode
 
@@ -53,6 +68,15 @@ void loop() {
 No if-statements. No actions. No motors turning on or off. Just observation—watching the values scroll by, one after another, without judgment, without reaction.
 
 And that, my friend, is exactly what meditation is.
+
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/meditiating-arduino.png" title="Meditating Arduino" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Prompt: A personified Arduino UNO board in meditation pose: the circuit board sits cross-legged (lotus position) with small robotic legs, its GPIO pins forming arms that rest gently on its knees in a classic meditation mudra. Thin sensor wires (temperature, touch, gyroscope sensors) connect to the board like neural pathways, gently glowing. A holographic Serial Monitor display floats in front showing scrolling sensor values in green monospace text. Peaceful ambient lighting, dark gradient background (navy to deep purple), subtle particle effects suggesting data flow. The overall mood: technology meeting mindfulness. Art style: modern 3D render with soft lighting, slightly whimsical but respectful.
+</div>
 
 ## The Sensor Within
 

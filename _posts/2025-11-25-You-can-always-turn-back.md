@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Poem: تُو ہمیشہ مُڑ سکدا (You Can Always Turn Back)"
+title: "Poem: You Can Always Turn Back (تُو ہمیشہ مُڑ سکدا)"
 date: 2025-02-13
 inline: false
 related_posts: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Poem:  لفظوں کی قیمت (The Cost of Words)"
+title: "Poem: The Cost of Words ( لفظوں کی قیمت )"
 date: 2025-10-19
 inline: false
 related_posts: false

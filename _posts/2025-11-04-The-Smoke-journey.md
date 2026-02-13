@@ -7,7 +7,6 @@ related_posts: false
 tags: [perception, metaphor, philosophy, poem, consciousness, systems thinking]
 ---
 
-How about,  
 on a sunny day,  
 on a beach,  
 I smoked a cigarette full of weed.

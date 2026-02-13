@@ -144,7 +144,7 @@ ambient_sound: 0.5
 thought_stream: "what should I have for dinner"
 breath_depth: 0.8
 foot_pressure: 0.4
-...
+
 ````
 
 No judgments. No actions. Just debugging your sensors, watching what's already happening.
@@ -152,5 +152,5 @@ No judgments. No actions. Just debugging your sensors, watching what's already h
 That's all meditation is.
 
 And sometimes, that's everything.
-````
+
 

@@ -50,25 +50,10 @@ module ExternalPosts
       doc.data['external_source'] = source_name
       doc.data['title'] = content[:title]
       doc.data['feed_content'] = content[:content]
-      doc.data['description'] = sanitize_description(content[:summary])
+      doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
       site.collections['posts'].docs << doc
-    end
-
-    def sanitize_description(text)
-      return '' if text.nil?
-      
-      # Strip HTML tags
-      text = Nokogiri::HTML(text).text
-      
-      # Escape quotes and special characters for safe JavaScript embedding
-      text = text.gsub('"', '\"')
-        .gsub("'", "\\'")
-        .gsub(/[^\w\s.,!?:\-–—()&;]/, '')
-      
-      # Truncate to 160 characters for search index
-      text.length > 160 ? text[0...160] + '...' : text
     end
 
     def fetch_from_urls(site, src)

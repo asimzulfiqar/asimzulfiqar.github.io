@@ -262,7 +262,7 @@ plugins:
   - jekyll-imagemagick
   # - jekyll-jupyter-notebook # Disabled - not needed
   - jekyll-link-attributes
-  - jekyll-minifier # Enabled - RSS descriptions now sanitized in external-posts.rb
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar
@@ -287,11 +287,9 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/js/search-data.json"]
+  exclude: ["robots.txt", "assets/js/search/*.js"]
   uglifier_args:
     harmony: true
-    compress:
-      passes: 2
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

@@ -86,9 +86,8 @@ pagination:
                     <p class="post-meta">
                       {{ read_time }} min read &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>                      {% if post.external_source %}
-                      &nbsp; &middot; &nbsp; <span class=\"external-badge\"><i class=\"fa-solid fa-link fa-xs\"></i> {{ post.external_source }}</span>
-                      {% endif %}                    </p>
+                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -145,7 +144,7 @@ pagination:
         {{ read_time }} min read &nbsp; &middot; &nbsp;
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
-        &nbsp; &middot; &nbsp; <span class="external-badge"><i class="fa-solid fa-link fa-xs"></i> {{ post.external_source }}</span>
+        &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
       </p>
       <p class="post-tags">

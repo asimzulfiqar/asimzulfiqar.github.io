@@ -570,6 +570,21 @@ footer.sticky-bottom {
       padding-bottom: 0;
     }
 
+    .external-badge {
+      display: inline-block;
+      background-color: var(--global-theme-color);
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.35rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      white-space: nowrap;
+
+      i {
+        margin-right: 0.25rem;
+      }
+    }
+
     a {
       color: var(--global-text-color);
       text-decoration: none;

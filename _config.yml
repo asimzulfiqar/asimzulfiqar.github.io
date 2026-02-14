@@ -262,7 +262,7 @@ plugins:
   - jekyll-imagemagick
   # - jekyll-jupyter-notebook # Disabled - not needed
   - jekyll-link-attributes
-  - jekyll-minifier
+  # - jekyll-minifier # Disabled - incompatible with special characters in external RSS feeds
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll/scholar

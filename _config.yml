@@ -171,10 +171,16 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: High Voltages Blog (page 1)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/feed/
+    categories: [external-posts]
+    tags: [IoT]
   - name: High Voltages Blog (page 2)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/page/2/feed/
+    categories: [external-posts]
+    tags: [IoT]
   - name: High Voltages Blog (page 3)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/page/3/feed/
+    categories: [external-posts]
+    tags: [IoT]
   # - name: Google Blog
   #   posts:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -310,8 +316,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["poem", "philosophy", "reflection", "time", "metaphor", "urdu"] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: ["poem", "philosophy", "reflection", "IoT", "metaphor", "tech"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

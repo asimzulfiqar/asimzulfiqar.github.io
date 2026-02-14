@@ -169,8 +169,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  # - name: High Voltages Blog
-  #   rss_url: https://highvoltages.co/feed/
+  - name: High Voltages Blog
+    rss_url: https://highvoltages.co/feed/
   # - name: Google Blog
   #   posts:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -287,9 +287,11 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/js/search-data.json"]
   uglifier_args:
     harmony: true
+    compress:
+      passes: 2
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives

@@ -171,15 +171,15 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: High Voltages Blog (page 1)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/feed/
-    categories: ["High-Voltages"]
+    categories: [High-Voltages]
     tags: [IoT]
   - name: High Voltages Blog (page 2)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/page/2/feed/
-    categories: ["High-Voltages"]
+    categories: [High-Voltages]
     tags: [IoT]
   - name: High Voltages Blog (page 3)
     rss_url: https://highvoltages.co/category/iot-internet-of-things/page/3/feed/
-    categories: ["High-Voltages"]
+    categories: [High-Voltages]
     tags: [IoT]
   # - name: Google Blog
   #   posts:

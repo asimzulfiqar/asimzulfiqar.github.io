@@ -3,6 +3,8 @@ layout: about
 title: About
 permalink: /
 subtitle: IoT developer and Content creator
+nav: true
+nav_order: 1
 
 profile:
   align: right

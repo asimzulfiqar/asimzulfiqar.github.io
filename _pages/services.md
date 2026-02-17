@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 description: IoT consulting and development services for businesses looking to build connected systems.
 nav: true
-nav_order: 1
+nav_order: 4
 ---
 
 ## IoT Consulting & Development
